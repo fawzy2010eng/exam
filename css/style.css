@@ -1,0 +1,242 @@
+* {
+    transition: all 1s ease;
+}
+
+.navbar {
+    z-index: 5;
+
+}
+
+.content {
+    margin-top: -5rem;
+    z-index: -5;
+}
+
+.card .carousel img {
+    background-position: center center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.nav-item .nav-link:hover {
+    color: #f25454 !important;
+}
+
+.btns {
+    left: -1rem;
+}
+
+.prev,
+.next {
+    background-color: transparent;
+    width: 5rem;
+    height: 5rem;
+    border: white solid 2px;
+}
+
+.carousel-item {}
+
+.carousel-item h3 {
+    width: 30%;
+    font-size: 6rem;
+}
+
+
+
+
+
+/* about */
+.underline {
+    width: 4rem;
+    height: 1px;
+    background-color: #f25454;
+    margin: auto;
+}
+
+.title:hover .underline {
+    cursor: pointer;
+    width: 6rem;
+}
+
+.title h2 {
+    z-index: 3;
+}
+
+.title h3 {
+    z-index: -1;
+    color: #cacacc !important;
+    font-size: 4rem;
+    bottom: -1rem;
+}
+
+.about .content {
+    margin-top: 4rem;
+}
+
+
+
+
+.team .card {
+    border: none;
+    overflow: hidden;
+}
+
+
+.team .card-img-overlay {
+    background-color: rgba(242, 84, 84, .7);
+    opacity: 0;
+}
+
+.team .card:hover .card-img-overlay {
+    /* border: 2px solid #f25454; */
+    opacity: 1;
+}
+
+.team .card:hover img {
+    transform: scale(1.15);
+}
+
+.team .card:hover~.card-body h3 {
+    color: #f25454;
+}
+
+.team .ideas {
+    padding: 1rem 6rem;
+}
+
+.team .ideas h2 {
+    font-size: 3.3rem;
+}
+
+.team button {
+    width: 12rem;
+    height: 4rem;
+    border: none;
+    font-size: 1.4rem;
+}
+
+.team button:hover {
+    background-color: rgba(242, 84, 84, .7);
+}
+
+
+
+
+
+
+
+.services .card {
+    background-color: transparent !important;
+    border: none;
+}
+
+.services .card i {
+    color: #f25454;
+}
+
+.services .title h2 {
+    /* z-index: -12; */
+}
+
+.services .title h3 {
+    z-index: 7;
+}
+
+.services .card {
+    margin-bottom: 2rem;
+}
+
+.services .card h2:hover {
+    color: #f25454;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.reviews .carousel-indicators {
+    position: static !important;
+}
+
+.reviews .carousel-indicators img {
+    width: 15rem !important;
+    height: 15rem !important;
+    border-radius: 50%;
+
+}
+
+.reviews .carousel-inner .carousel-item p {
+    font-size: 3rem;
+}
+
+
+
+
+
+.connect .content .card {
+    border: none;
+    border-bottom: 2px solid #d6cece;
+    background-color: transparent;
+
+}
+
+.connect .content .card:last-of-type {
+    border: none;
+}
+
+.connect .content .card i {
+    color: #f25454;
+}
+
+.connect .content .card:hover h2 {
+    color: #f25454;
+}
+
+.connect .content .row input {
+    border: none;
+    /* ma */
+}
+
+.connect .content .row button {
+    width: 12rem;
+    height: 2rem;
+}
+
+
+
+
+
+
+
+.links h5,
+.links a {
+    color: #A2B0A7
+}
+
+.links .cursor {
+    cursor: pointer;
+    /* color: #f25454; */
+}
+
+.links li :hover {
+    color: #f25454 !important;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links .tags {
+    width: fit-content;
+    cursor: pointer;
+}
+
+.links .tags :hover {
+    color: #f25454 !important;
+    border-color: #f25454 !important;
+}
